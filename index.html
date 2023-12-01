@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronic Shop</title>
+
+  <!-- start bootstrap css -->
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <!-- start fontawesome css -->
+  <link rel="stylesheet" href="vendor/fontawesome/all.min.css">
+  <!-- start custom css  -->
+  <link rel="stylesheet" href="assets/css/main.minify.css">
+
+</head>
+
+<body>
+
+  <div class="loading bg-white position-fixed vh-100 w-100 d-flex justify-content-center align-items-center z-3">
+    <span class="loader"></span>
+  </div>
+
+  <div class="scroll-to-top  position-fixed bg-main-color text-white rounded-circle d-flex justify-content-center align-items-center ">
+    <i class="fa-solid fa-arrow-up"></i>
+
+  </div>
+
+  <!-- start navbar 1 -->
+ 
+  <nav class="navbar navbar-expand-lg  z-2">
+    <div class="container ">
+
+      <div class="nav1 d-flex mt-3">
+        <a class="navbar-brand" href="#"> <img src="assets/img/logo-dark.webp" alt="logo-dark" class="w-50  asd"></a>
+
+        <img src="assets/img/free-ship_small.svg" alt="free-ship_small" class="ship pt-1 ps-2">
+        <p class="w-25 ps-2"> FREE SHIPPING <br> ON ORDER ABOVE $99 </p>
+
+
+        <form class="d-flex search ps-5  " role="search">
+          <input class="border rounded-start input w-20  " type="search" placeholder="  Search products"
+            aria-label="Search">
+          <i
+            class="fa-solid fa-magnifying-glass rounded-end border-main-color bg-main-color text-white submit p-3 d-flex align-items-center"></i>
+        </form>
+
+        <div class="collapse navbar-collapse ps-5 ms-5  " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link " aria-current="page" href="#"> <i
+                  class="fa-regular fa-user justify-content-center d-flex"></i>
+                <p>ACCOUNT</p>
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-center" href="#"><i class="fa-regular fa-heart justify-content-center d-flex"></i>
+                <p>WISHLIST</p>
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping justify-content-center d-flex "></i>
+                <p>CART</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav2 d-block">
+      </div>
+    </div>
+  </nav>
+
+  <!-- start navbar 2-->
+  <nav class="navbar navbar-expand-lg  bg-dark   border-bottom  text-white nav2">
+    <div class="container nav2">
+      <button class="navbar-toggler bg-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+        <div class="dropdown d-flex">
+          <i class="fa-solid fa-bars pt-2 "></i>
+          <button class="btn btn-primary dropdown-toggle border-0 bg-dark  opacity-75" type="button" id="dropdownMenuButton"
+            data-mdb-toggle="dropdown" aria-expanded="false">
+            BROWSE CATEGORIES
+          </button>
+          <ul class="dropdown-menu bar px-4 " aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Smart Watches</a></li>
+            <li><a class="dropdown-item pt-3" href="#">Smart TVs</a></li>
+            <li><a class="dropdown-item pt-3" href="#">Laptps & Computer</a></li>
+            <li><a class="dropdown-item pt-3" href="#">Audios & Video</a></li>
+            <li><a class="dropdown-item pt-3" href="#">Mobile & Taplets</a></li>
+            <li><a class="dropdown-item pt-3" href="#">cameras</a></li>
+            <li><a class="dropdown-item pt-3" href="#"> Video Games</a></li>
+            <li><a class="dropdown-item pt-3" href="#">Printers & lnk</a></li>
+            <li><a class="dropdown-item pt-3" href="#">Herdphones</a></li>
+            <li><a class="dropdown-item pt-3 text-danger" href="#">Weakly Deals</a></li>
+          </ul>
+        </div>
+
+        <div class="shopify-section d-flex ps-5 me-5">
+          <div class="dropdown ">
+            <button class="btn btn-primary dropdown-toggle border-0 bg-dark opacity-75 " type="button" id="dropdownMenuButton"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              HOME
+            </button>
+            <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+              <div class="d-flex">
+              <div>
+
+
+                <li><h6 class="dropdown-item" href="#">FASHION</h6></li>
+                <li><a class="dropdown-item" href="#">Home Default</a></li>
+                <li><a class="dropdown-item" href="#">Home Classic</a></li>
+                <li><a class="dropdown-item" href="#">Home Elegant</a></li>
+                <li><a class="dropdown-item" href="#">Home Trendy</a></li>
+                <li><a class="dropdown-item" href="#">Fashion Forever</a></li>
+                <li><a class="dropdown-item" href="#">Lavish Fashion</a></li>
+                <li><a class="dropdown-item" href="#">Home Glamour</a></li>
+                <li><a class="dropdown-item" href="#">Kids Fashion</a></li>
+                <li><a class="dropdown-item" href="#">Beauty</a></li>
+              </div>
+
+              <div>
+                <li><h6 class="dropdown-item" href="#">OTHERS</h6></li>
+                <li><a class="dropdown-item" href="#">Digital Store</a></li>
+                <li><a class="dropdown-item" href="#">Electronics</a></li>
+                <li><a class="dropdown-item" href="#">Furniture 01</a></li>
+                <li><a class="dropdown-item" href="#">Furniture 02</a></li>
+                <li><a class="dropdown-item" href="#">Jewelers</a></li>
+                <li><a class="dropdown-item" href="#">Fitness & Yoga</a></li>
+                <li><a class="dropdown-item" href="#">Skin Care</a></li>
+                <li><a class="dropdown-item" href="#">Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Pets Store</a></li>
+              </div>
+              <img src="assets/img/tv-bnr_300x.webp" alt="tv-bnr_300x" >
+              </div>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle border-0 bg-dark opacity-75 " type="button" id="dropdownMenuButton"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              SHOP
+            </button>
+            <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+              <div class="d-flex">
+              <div class="ps-2">
+                <li><h6 class="dropdown-item" href="#">COLLECTION LIST</h6></li>
+                <li><a class="dropdown-item" href="#">Collection List 1</a></li>
+                <li><a class="dropdown-item" href="#">Collection List 2</a></li>
+                <li><a class="dropdown-item" href="#">Collection List 3</a></li>
+                <li><a class="dropdown-item" href="#">Collection List 4</a></li>
+                <li><a class="dropdown-item" href="#">Collection List 5</a></li>
+                <li><a class="dropdown-item" href="#">Sub Collection 1</a></li>
+                <li><a class="dropdown-item" href="#">Sub Collection 2</a></li>
+                <li><a class="dropdown-item" href="#">Sub Collection 3</a></li>
+                <li><a class="dropdown-item" href="#">Sub Collection 4</a></li>
+              </div>
+
+              <div class="ps-2">
+                <li><h6 class="dropdown-item" href="#">SHOP PAGES</h6></li>
+                <li><a class="dropdown-item" href="#">Left Sidebar</a></li>
+                <li><a class="dropdown-item" href="#">Right Sidebar</a></li>
+                <li><a class="dropdown-item" href="#">Drawer Sidebar</a></li>
+                <li><a class="dropdown-item" href="#">No Filters/Sidebar</a></li>
+                <li><a class="dropdown-item" href="#">Fullwidth</a></li>
+                <li><a class="dropdown-item" href="#">Horizontal Filter</a></li>
+                <li><a class="dropdown-item" href="#">List View</a></li>
+                <li><a class="dropdown-item" href="#">Categories Menu</a></li>
+              </div>
+
+              <div class="ps-2">
+                <li><h6 class="dropdown-item" href="#">MAIN FEATURES</h6></li>
+                <li><a class="dropdown-item" href="#">Dynamic Filters</a></li>
+                <li><a class="dropdown-item" href="#">Header Image</a></li>
+                <li><a class="dropdown-item" href="#">Header Simple</a></li>
+                <li><a class="dropdown-item" href="#">Header Overlap</a></li>
+                <li><a class="dropdown-item" href="#">Banner Countdown</a></li>
+                <li><a class="dropdown-item" href="#">Background Color</a></li>
+                <li><a class="dropdown-item" href="#">Banner Description</a></li>
+                <li><a class="dropdown-item" href="#">Collection Description</a></li>
+              </div>
+
+              <div class="ps-2">
+                <li><h6 class="dropdown-item" href="#">MAIN FEATURES</h6></li>
+                <li><a class="dropdown-item" href="#">Sidebar Background</a></li>
+                <li><a class="dropdown-item" href="#">Pagination</a></li>
+                <li><a class="dropdown-item" href="#">Ajax Load More</a></li>
+                <li><a class="dropdown-item" href="#">Infinite Scroll</a></li>
+                <li><a class="dropdown-item" href="#">Swatches Style</a></li>
+                <li><a class="dropdown-item" href="#">Grid Style</a></li>
+                <li><a class="dropdown-item" href="#">Custom Content</a></li>
+                <li><a class="dropdown-item" href="#">Custom Con</a></li>
+              </div>
+
+              <div>
+                <img src="assets/img/headphon-nav_500x.webp" alt="tv-bnr_300x" class="" >
+              </div>
+
+              </div>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle border-0 bg-dark opacity-75 " type="button" id="dropdownMenuButton"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              PRODUCTS
+            </button>
+            <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+              <div class="d-flex">
+              <div class="ps-3">
+                <li><h6 class="dropdown-item" href="#">PRODUCT PAGES</h6></li>
+                <li><a class="dropdown-item" href="#">Grid 2 Column</a></li>
+                <li><a class="dropdown-item" href="#">Grid 1 Column</a></li>
+                <li><a class="dropdown-item" href="#">Grid Gallery</a></li>
+                <li><a class="dropdown-item" href="#">Left Thumbnails</a></li>
+                <li><a class="dropdown-item" href="#">Right Thumbnails</a></li>
+                <li><a class="dropdown-item" href="#">Bottom Thumbnails</a></li>
+                <li><a class="dropdown-item" href="#">Vertical Slider</a></li>
+                <li><a class="dropdown-item" href="#">Product Fullwidth</a></li>
+                <li><a class="dropdown-item" href="#">Product 3D, AR models</a></li>
+              </div>
+
+              <div class="ps-3">
+                <li><h6 class="dropdown-item" href="#">PRODUCT FEATURES</h6></li>
+                <li><a class="dropdown-item" href="#">Lightbox Images</a></li>
+                <li><a class="dropdown-item" href="#">Product Inner Zoom</a></li>
+                <li><a class="dropdown-item" href="#">Video Thumb</a></li>
+                <li><a class="dropdown-item" href="#">Color Swatch</a></li>
+                <li><a class="dropdown-item" href="#">Image Swatch</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown Swach</a></li>
+                <li><a class="dropdown-item" href="#">Label Swatch</a></li>
+                <li><a class="dropdown-item" href="#">Swatches Style</a></li>
+                <li><a class="dropdown-item" href="#">More Style</a></li>
+              </div>
+
+              <div class="ps-3">
+                <li><h6 class="dropdown-item" href="#">PRODUCT FEATURES</h6></li>
+                <li><a class="dropdown-item" href="#">Upsell - Bundle</a></li>
+                <li><a class="dropdown-item" href="#">Product Inquiry</a></li>
+                <li><a class="dropdown-item" href="#">Sticky Add To Cart</a></li>
+                <li><a class="dropdown-item" href="#">Pre - Order</a></li>
+                <li><a class="dropdown-item" href="#">Product Pick Up</a></li>
+                <li><a class="dropdown-item" href="#">Group Product</a></li>
+                <li><a class="dropdown-item" href="#">Product Tabs Left</a></li>
+                <li><a class="dropdown-item" href="#">Product Tabs Center</a></li>
+                <li><a class="dropdown-item" href="#">Collapsible Tabs</a></li>
+                <li><a class="dropdown-item" href="#">Complementary Products</a></li>
+              </div>
+
+              <div class="ps-3">
+                <li><h6 class="dropdown-item" href="#">PRODUCT FEATURES</h6></li>
+                <li><a class="dropdown-item" href="#">Stock Alert</a></li>
+                <li><a class="dropdown-item" href="#">Countdown</a></li>
+                <li><a class="dropdown-item" href="#">Sales Point</a></li>
+                <li><a class="dropdown-item" href="#">Dynamic Checkout</a></li>
+                <li><a class="dropdown-item" href="#">Sold In Last</a></li>
+                <li><a class="dropdown-item" href="#">Fake Visitors</a></li>
+                <li><a class="dropdown-item" href="#">Short Description</a></li>
+                <li><a class="dropdown-item" href="#">Promotion Text</a></li>
+                <li><a class="dropdown-item" href="#">Featured Text</a></li>
+                <li><a class="dropdown-item" href="#">Custom Text</a></li>
+              </div>
+              <div class="ps-3">
+
+             <img src="assets/img/speaker-nav_150x.avif" alt="speaker-nav_150x">
+             <p class="shop pt-3">Top Portable Speaker</p>
+             <img src="assets/img/camera-nav_150x.avif" alt="camera-nav_150x">
+             <p class="shop pt-3">Get 20% OFF Now</p>
+  
+                 </div>
+             
+
+              </div>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle border-0 bg-dark opacity-75" type="button" id="dropdownMenuButton"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              FEATURES
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div class="d-flex">
+                <div>
+                  <li><h6 class="dropdown-item" href="#">HIGHLIGHTS</h6></li>
+                  <li><a class="dropdown-item" href="#">Multiple Headers</a></li>
+                  <li><a class="dropdown-item" href="#">Flexible Footer</a></li>
+                  <li><a class="dropdown-item" href="#">Sections On Every page</a></li>
+                  <li><a class="dropdown-item" href="#">Fastest Theme</a></li>
+                  <li><a class="dropdown-item" href="#">Mobile First</a></li>
+                  <li><a class="dropdown-item" href="#">Lifetime Updates</a></li>
+                  <li><a class="dropdown-item" href="#">Top Notch Support</a></li>
+                  <li><a class="dropdown-item" href="#">Reliable Author</a></li>
+                 
+                  <li><h6 class="dropdown-item pt-5" href="#">MAIN FEATURES</h6></li>
+                  <li><a class="dropdown-item" href="#">Catalog Mode</a></li>
+                  <li><a class="dropdown-item" href="#">Exclusive Megamenu</a></li>
+                  <li><a class="dropdown-item" href="#">Vertical Megamenu</a></li>
+                  <li><a class="dropdown-item" href="#">RTL Layout</a></li>
+                  <li><a class="dropdown-item" href="#">Timer Bar</a></li>
+                  <li><a class="dropdown-item" href="#">GDPR Compatible</a></li>
+                  <li><a class="dropdown-item" href="#">Lookook Shop</a></li>
+                  <li><a class="dropdown-item" href="#">Images Gallery</a></li>
+                  
+                </div>
+  
+                <div>
+                  <li><h6 class="dropdown-item" href="#">TOP FEATURES</h6></li>
+                  <li><a class="dropdown-item" href="#">Promotion Bar</a></li>
+                  <li><a class="dropdown-item" href="#">Sale Notification Popup</a></li>
+                  <li><a class="dropdown-item" href="#">Age Verification Popup</a></li>
+                  <li><a class="dropdown-item" href="#">Exit Intent Popup</a></li>
+                  <li><a class="dropdown-item" href="#">Newsletter Popup</a></li>
+                  <li><a class="dropdown-item" href="#">Information Bar</a></li>
+                  <li><a class="dropdown-item" href="#">Scrolling Text</a></li>
+                  <li><a class="dropdown-item" href="#">Dynamic Browser Tab</a></li>
+                  
+                  
+                  <li><h6 class="dropdown-item pt-5" href="#">TOP SECTIONS</h6></li>
+                  <li><a class="dropdown-item" href="#">Image With Text</a></li>
+                  <li><a class="dropdown-item" href="#">Masonry Banners</a></li>
+                  <li><a class="dropdown-item" href="#">Collection List</a></li>
+                  <li><a class="dropdown-item" href="#">Round Banners</a></li>
+                  <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                  <li><a class="dropdown-item" href="#">Instagram Gallery</a></li>
+                  <li><a class="dropdown-item" href="#">Video Section</a></li>
+                  
+                </div>
+                
+  
+  
+                </div>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle border-0 bg-dark opacity-75 " type="button" id="dropdownMenuButton"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              PORTFOLIO
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">portfolio 1</a></li>
+              <li><a class="dropdown-item" href="#">portfolio 2</a></li>
+              <li><a class="dropdown-item" href="#">portfolio 3</a></li>
+              <li><a class="dropdown-item" href="#">portfolio 4</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle border-0 bg-dark opacity-75 " type="button" id="dropdownMenuButton"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              PAGES
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">About us</a></li>
+              <li><a class="dropdown-item" href="#">contact us</a></li>
+              <li><a class="dropdown-item" href="#">portfolio </a></li>
+              <li><a class="dropdown-item" href="#">FAQs</a></li>
+              <li><a class="dropdown-item" href="#">Our Brands</a></li>
+              <li><a class="dropdown-item" href="#">My Acount </a></li>
+              <li><a class="dropdown-item" href="#">Store Locations</a></li>
+              <li><a class="dropdown-item" href="#">404</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle border-0 bg-dark opacity-75 " type="button" id="dropdownMenuButton"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              BUY NOW
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Open A Store For Free</a></li>
+              <li><a class="dropdown-item" href="#">Support Ticket</a></li>
+            </ul>
+          </div>
+        </div>
+       
+
+          <a href="#" class="text-decoration-none text-main-color ps-5 ms-5">🔥 DEAL ZONE</a>
+        
+      </div>
+
+
+    </div>
+
+  </nav>
+
+  <!-- start headear-->
+  <header class="header vh-100">
+
+    <div id="carouselExampleAutoplaying" class="carousel slide vh-100" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative" data-bs-interval="2000">
+          <img src="assets/img/header1.webp" class="d-block w-100 vh-100" alt="headphone">
+          <div class="container">
+            <div class="position-absolute  header-contant text-white ">
+              <h1 class="pb-2"> MAGIC <br> UNWRAPPED</h1>
+              <p class="pb-3">Everyone deserves a piece of heaven.</p>
+              <div class="button1">
+                <a href="#" class="text-decoration-none text-white border bg-black pt-3 pb-3 ps-5 pe-5  "> SHOP NOW </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/img/headel 2.webp" class="d-block w-100 vh-100" alt="apple wach">
+          <div class="container">
+            <div class="position-absolute  header-contant text-dark ">
+              <h1 class="pb-2"> 50% OFF ON <br> SMART WATCH</h1>
+              <p class="pb-3">Don't Miss Your Last Chance</p>
+              <div class="button1">
+                <a href="#" class="text-decoration-none text-white border bg-black pt-3 pb-3 ps-5 pe-5  "> SHOP NOW </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev  " type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span
+          class="fa-solid fa-chevron-right fa-flip-horizontal bg-secondary-subtle  ms-5  rounded-circle p-3 n position-absolute start-0  "
+          style="color: #000000;" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span
+          class="fa-solid fa-chevron-right bg-secondary-subtle   me-5 rounded-circle p-3 n position-absolute end-100 "
+          style="color: #000000;" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- start TOP CATEGORIES section -->
+  <section class="top-categories pt-5 mt-5">
+    <div class="container">
+      <div class="top-hedear position-relative">
+        <h2 class="text-center">TOP CATEGORIES</h2>
+      </div>
+
+      <div class="row pt-5 gap-5 top-categories1">
+        <div class="col-lg-2 col-md-5  ">
+          <div class="img-categories   ">
+            <a href="#" class="text-center text-decoration-none ">
+              <div class="position-relative overflow-hidden  border rounded-circle as">
+                <img src="assets/img/TOP CATEGORIES/Laptop & Computer.avif" alt="Laptop & Computer"
+                  class=" rounded-circle img-fluid">
+              </div>
+            </a>
+            <p class="text-black pt-3 text-center">Laptop & Computer</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-5 img-categories">
+          <a href="#" class="text-center text-decoration-none">
+            <div class="position-relative overflow-hidden border rounded-circle ">
+              <img src="assets/img/TOP CATEGORIES/Kitchen Appliances.avif" alt="Kitchen Appliances"
+                class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3 text-center">Kitchen Appliances</p>
+        </div>
+        <div class="col-lg-2 col-md-5 img-categories">
+          <a href="#" class="text-center text-decoration-none ">
+            <div class="position-relative overflow-hidden border rounded-circle ">
+              <img src="assets/img/TOP CATEGORIES/Audio & Video.avif" alt="Audio & Video"
+                class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3 text-center">Audio & Video</p>
+        </div>
+        <div class="col-lg-2 col-md-5 img-categories">
+          <a href="#" class="text-center text-decoration-none ">
+            <div class="position-relative overflow-hidden border rounded-circle ">
+              <img src="assets/img/TOP CATEGORIES/Mobile Phones.avif" alt="Mobile Phones"
+                class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3 text-center">Mobile Phones</p>
+        </div>
+        <div class="col-lg-2 col-md-5 img-categories">
+          <a href="#" class="text-center text-decoration-none img-categories">
+            <div class="position-relative overflow-hidden border rounded-circle">
+              <img src="assets/img/TOP CATEGORIES/Televisions.avif" alt="Televisions" class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3 text-center">Televisions</p>
+        </div>
+
+        <div class="col-lg-2 col-md-5 img-categories">
+          <a href="#" class="text-center text-decoration-none">
+            <div class="position-relative overflow-hidden border rounded-circle ">
+              <img src="assets/img/TOP CATEGORIES/Smart Homes.avif" alt="Smart Homes" class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3 text-center">Smart Homes</p>
+        </div>
+        <div class="col-lg-2 col-md-5 img-categories">
+          <a href="#" class="text-center text-decoration-none">
+            <div class="position-relative overflow-hidden border rounded-circle ">
+              <img src="assets/img/TOP CATEGORIES/Video Game.avif" alt="Video Game" class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3 text-center">Video Game</p>
+        </div>
+        <div class="col-lg-2 col-md-5 img-categories">
+          <a href="#" class="text-center text-decoration-none">
+            <div class="position-relative overflow-hidden border rounded-circle ">
+              <img src="assets/img/TOP CATEGORIES/Headphones.avif" alt="Headphones" class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3 text-center">Headphones</p>
+        </div>
+        <div class="col-lg-2 col-md-5  img-categories">
+          <a href="#" class="text-center text-decoration-none">
+            <div class="position-relative overflow-hidden border rounded-circle ">
+              <img src="assets/img/TOP CATEGORIES/PCs & Accessories.avif" alt="PCs & Accessories"
+                class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3 text-center">PCs & Accessories</p>
+        </div>
+        <div class="col-lg-2 col-md-5 img-categories">
+          <a href="#" class="text-center text-decoration-none">
+            <div class="position-relative overflow-hidden border-warning rounded-circle">
+              <img src="assets/img/TOP CATEGORIES/Home Appliances.avif" alt="Home Appliances"
+                class="rounded-circle img-fluid">
+            </div>
+          </a>
+          <p class="text-black pt-3  text-center">Home Appliances</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- start NEW PRODUCTS -->
+  <section class="new-products pt-5 mt-5 pb-5 ">
+    <div class="container">
+
+      <div class="top-hedear position-relative">
+        <h2 class="text-center">NEW PRODUCTS</h2>
+      </div>
+
+      <div class="row gap-3">
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 ss">
+          <p class="rounded-pill bg-danger  text-white ps-2 pe-2  sale">50%</p>
+          <div class="product position-relative">
+            <div class="overlayy  d-flex justify-content-center align-items-center   position-absolute   column-gap-1  ">
+
+              
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+            </div>
+            <div class="a-hover pb-1">
+              <img src="assets/img/NEW PRODUCTS/Xbox Series Wireless Controller.webp"
+                alt="Xbox Series Wireless Controller" class="img-fluid pb-3  ">
+              <a href="#" class="text-decoration-none text-black ">Xbox Series Wireless Controller</a>
+              <p class="text-danger pt-2 fw-bold"> <span
+                  class="text-decoration-line-through text-body-tertiary fw-normal">$600.00</span>$300.00</p>
+            </div>
+
+            <div class="star pb-4">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3  border bg-white text-center mt-3 p-3 ss">
+          <p class="rounded-pill bg-danger  text-white ps-2 pe-2  sale">50%</p>
+          <div class="product position-relative">
+            <div class="overlayy  d-flex justify-content-center align-items-center   position-absolute   column-gap-1  ">
+              
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+            </div>
+
+
+            <div class="a-hover pb-1">
+              <img src="assets/img/NEW PRODUCTS/tablet.webp" alt="tablet" class="img-fluid pb-3  ">
+              <a href="#" class="text-decoration-none text-black ">10.2-inch iPad 9th Gen Black</a>
+              <p class="text-danger pt-2 fw-bold"> <span
+                  class="text-decoration-line-through text-body-tertiary fw-normal">$900.00</span>$600.00</p>
+            </div>
+
+            <div class="star pb-4">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-3  border bg-white text-center mt-3 p-3 ss">
+          <p class="rounded-pill bg-danger  text-white ps-2 pe-2  sale">50%</p>
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+
+            </div>
+
+
+            <div class="a-hover pb-1">
+              <img src="assets/img/NEW PRODUCTS/mini dron.webp" alt="mini dron" class="img-fluid pb-3  ">
+              <a href="#" class="text-decoration-none text-black ">Mini Drone FlyCam Quadcopter</a>
+              <p class="text-danger pt-2 fw-bold"> <span
+                  class="text-decoration-line-through text-body-tertiary fw-normal">$1,500.00</span>$1,000.00</p>
+            </div>
+
+            <div class="star pb-4 ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/smart led tv.webp" alt="Smart led" class="img-fluid pb-4 ">
+              <a href="#" class="text-decoration-none text-black ">32 inch HD Smart LED TV</a>
+              <p class="text-black fw-bold pt-3"> $500.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/samsung s20.webp" alt="Samsung S201FE White" class="img-fluid pb-3  ">
+              <a href="#" class="text-decoration-none text-black ">Samsung S201FE White</a>
+              <p class="text-black fw-bold pt-2"> $900.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/msi laptop.webp" alt="MSI Modern 15 Laptop" class="img-fluid pb-3"
+                id="imgmsi">
+              <a href="#" class="text-decoration-none text-black ">MSI Modern 15 Laptop</a>
+              <p class="text-black fw-bold pt-2"> $1,200.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+
+
+          <button onclick="test1()" class="border text-bg-secondary rounded-circle p-1"> </button>
+          <button onclick="test()" class="border bg-black rounded-circle p-1"> </button>
+
+
+
+        </div>
+
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/wireless speaker.webp" alt="Wireless Extra Bass Speaker"
+                class="img-fluid pb-3 " id="imgspeaker">
+              <a href="#" class="text-decoration-none text-black ">Wireless Extra Bass Speaker</a>
+              <p class="text-black fw-bold pt-2"> $100.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-solid fa-star" style="color: #303130;"></i>
+              <i class="fa-solid fa-star" style="color: #303130;"></i>
+              <i class="fa-solid fa-star" style="color: #303130;"></i>
+              <i class="fa-solid fa-star" style="color: #303130;"></i>
+              <i class="fa-solid fa-star" style="color: #303130;"></i>
+            </div>
+
+          </div>
+          <button onclick="wirlesspeaker ()" class="border bg-warning rounded-circle p-1" title="Orange"> </button>
+          <button onclick="wirlesspeaker1()" class="border  rounded-circle p-1 Khaki" title="Khaki"> </button>
+          <button onclick="wirlesspeaker2()" class="border bg-black rounded-circle p-1" title="Black"> </button>
+          <button onclick="wirlesspeaker3()" class="border bg-primary rounded-circle p-1" title="Blue"> </button>
+        </div>
+
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/smart tv.webp" alt="AUE65 Crystal 4K UHD Smart TV"
+                class="img-fluid pb-3  ">
+              <a href="#" class="text-decoration-none text-black ">AUE65 Crystal 4K UHD Smart TV</a>
+              <p class="text-black fw-bold pt-2"> $400.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/computer speaker.webp" alt="10 Watt Wired Computer Speakers"
+                class="img-fluid pb-3 " id="imgspeak">
+              <a href="#" class="text-decoration-none text-black ">10 Watt Wired Computer Speakers</a>
+              <p class="text-black fw-bold pt-2"> $100.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+
+          <button onclick="ComputerSpeakers1()" class="border text-bg-light rounded-circle p-1" title="White"> </button>
+          <button onclick="ComputerSpeakers()" class="border bg-black rounded-circle p-1" title="Black"> </button>
+
+
+
+
+        </div>
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/play amoled.webp" alt="Reflex Play AMOLED Display"
+                class="img-fluid pb-3  " id="imgamloyed">
+              <a href="#" class="text-decoration-none text-black ">Reflex Play AMOLED Display</a>
+              <p class="text-black fw-bold pt-2"> $50.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+
+          <button onclick="playamloyed()" class="border bg-primary rounded-circle p-1" title="Blue"> </button>
+          <button onclick="playamloyed1()" class="border bg-black rounded-circle p-1" title="Black"> </button>
+          <button onclick="playamloyed2()" class="border bg-danger-subtle rounded-circle p-1" title="Pink"> </button>
+          <button onclick="playamloyed3()" class="border bg-success rounded-circle p-1" title="Green"> </button>
+          <button onclick="playamloyed4()" class="border bg-secondary rounded-circle p-1" title="Grey"> </button>
+
+        </div>
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/wireless bluetooth earphone.webp" alt="Wireless Bluetooth Earphone"
+                class="img-fluid pb-3" id="imgwire">
+              <a href="#" class="text-decoration-none text-black ">Wireless Bluetooth Earphone</a>
+              <p class="text-black fw-bold pt-2"> $60.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+
+          <button onclick="earphone1()" class="border text-bg-primary rounded-circle p-1" title="Blue"> </button>
+          <button onclick="earphone()" class="border bg-black rounded-circle p-1" title="Black"> </button>
+
+        </div>
+        <div class=" col-lg-3  border bg-white text-center mt-3 p-3 pt-5  ss">
+
+          <div class="product position-relative">
+            <div class="overlayy   d-flex justify-content-center align-items-center position-absolute   column-gap-1  ">
+              <i class="fa-regular fa-heart" title="Add to Wishlist"></i>
+              <i class="fa-solid fa-cart-shopping" title="Quick Shop"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Quick View"></i>
+
+            </div>
+
+
+            <div class="a-hover">
+              <img src="assets/img/NEW PRODUCTS/airdropes.webp" alt="Airdopes 125 PRO" class="img-fluid pb-3">
+              <a href="#" class="text-decoration-none text-black ">Airdopes 125 PRO</a>
+              <p class="text-black fw-bold pt-2"> $50.00</p>
+            </div>
+
+            <div class="star ">
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+              <i class="fa-regular fa-star" style="color: #d5d9e2;"></i>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-5 text-center viewall">
+        <a href="#" class="text-decoration-none text-black  bg-white px-4 py-2  "> VIEW ALL </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- start BEST SELLER & BEST RATED -->
+
+  <section class="Best pt-5 mt-5 pb-5">
+    <div class="container">
+      <div class="text-hedear d-flex justify-content-around">
+        <h2>BEST SELLER</h2>
+        <h2>BEST RATED</h2>
+      </div>
+      <div class="row pt-3 row-gap-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/xpox.webp" alt="Xbox Series Wireless Controller"
+              class="img-fluid w-25 ">
+            <div class=" a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Xbox Series Wireless Controller</a>
+              <p class="text-danger fw-bold"> <span
+                  class="text-decoration-line-through text-body-tertiary fw-normal">$600.00</span> $300.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Wireless On-Ear Headphones.webp" alt="Wireless On-Ear Headphones"
+              class="img-fluid w-25 ">
+            <div class=" a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Wireless On-Ear Headphones</a>
+              <p class="fw-bold">$60.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Samsung S201FE Pink.webp" alt="Samsung S201FE Pink"
+              class="img-fluid w-25 ">
+            <div class=" a-hover  pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Samsung S201FE Pink</a>
+              <p class="text-danger fw-bold"> <span
+                  class="text-decoration-line-through text-body-tertiary fw-normal">$1,400.00</span> $900.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Airdopes 125 PRO.webp" alt="Airdopes 125 PRO"
+              class="img-fluid w-25 ">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Airdopes 125 PRO</a>
+              <p class="fw-bold">$50.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Wireless Extra Bass Speaker.avif" alt="Wireless Extra Bass Speaker"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  "> Wireless Extra Bass Speaker</a>
+              <p class="fw-bold">$100.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Wireless Earphones 132.webp" alt="Wireless Earphones 132"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  "> Wireless Earphones 132</a>
+              <p class="fw-bold">$70.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Wireless Earphones 132.webp" alt=" Wireless Earphones 132"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Wireless Earphones 132</a>
+              <p class="fw-bold">$70.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Reflex Play AMOLED Display.avif" alt="Reflex Play AMOLED Display"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Reflex Play AMOLED Display</a>
+              <p class="fw-bold">$50.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Wireless Bluetooth Earphone.avif" alt="Wireless Bluetooth Earphone"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Wireless Bluetooth Earphone</a>
+              <p class="fw-bold">$60.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Sony Noise Cancelling Headphones.webp"
+              alt="Sony Noise Cancelling Headphones" class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Sony Noise Cancelling Headphone</a>
+              <p class="fw-bold">$400.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/10.2-inch iPad 9th Gen Black.webp" alt=10.2-inch iPad 9th Gen Black"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  "> 10.2-inch iPad 9th Gen Black </a>
+              <p class="text-danger fw-bold"> <span class="text-decoration-line-through text-body-tertiary fw-normal">
+                  $900.00 </span> $600.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Wireless On-Ear Headphones.webp" alt="Wireless On-Ear Headphones"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  "> Wireless On-Ear Headphones </a>
+              <p class="fw-bold">$60.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Smart Outdoor Camera.webp" alt="Smart Outdoor Camera"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  "> Smart Outdoor Camera </a>
+              <p class="fw-bold">$200.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Samsung S201FE White.webp" alt="Samsung S201FE White"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  "> Samsung S201FE White </a>
+              <p class="fw-bold">$900.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2">
+            <img src="assets/img/best sales & rated/Wireless Bluetooth Earphone.avif" alt="Wireless Bluetooth Earphone"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  ">Wireless Bluetooth Earphone</a>
+              <p class="fw-bold">$60.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="best-saler border d-flex  align-items-center p-2 ">
+            <img src="assets/img/best sales & rated/Bullet Security Camera.webp" alt="Bullet Security Camera"
+              class="img-fluid w-25">
+            <div class="a-hover pt-3">
+              <a href="#" class="text-decoration-none text-black  "> Bullet Security Camera </a>
+              <p class="fw-bold">$500.00</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- start img -->
+
+  <section class="img pt-5">
+    <div class="container">
+      <div class="row row-gap-4">
+        <div class="col-md-4 position-relative  text-white  ">
+          <div class="position-relative img-zoom overflow-hidden   ">
+            <img src="assets/img/image/projectore.webp" alt="projectore ">
+          </div>
+          <div class="detals position-absolute top-0 pt-4 ps-4 position-relative">
+            <p>LED <br> Projectors</p>
+            <a href="#" class="text-white text-decoration-none ">Shop Now</a>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 position-relative  text-white ">
+          <div class="position-relative img-zoom overflow-hidden  ">
+            <img src="assets/img/image/soundbar.webp" alt="soundbar">
+          </div>
+          <div class="detals position-absolute top-0 pt-4 ps-4 position-relative">
+            <p>Affordable <br> Soundbars </p>
+            <a href="#" class="text-black text-decoration-none ">Shop Now</a>
+
+          </div>
+        </div>
+        <div class="col-md-4 position-relative text-white ">
+          <div class="position-relative img-zoom overflow-hidden ">
+            <img src="assets/img/image/game.webp" alt="game" class="border">
+          </div>
+          <div class="detals position-absolute top-0 pt-4 ps-4 position-relative">
+            <p>Step up Your <br> Game</p>
+            <a href="#" class="text-white text-decoration-none ">Shop Now</a>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-6 position-relative  text-white ">
+          <div class=" img-zoom overflow-hidden   ">
+            <img src="assets/img/image/headphone5.webp" alt="game" class="img-fluid">
+          </div>
+          <div class="detals position-absolute top-0 pt-4 ps-4 position-relative">
+            <p class="fw-bold fs-2"> <span class="p-detail lh-base">UP TO - 30% OFF </span> <br> Wireless Headphones</p>
+            <a href="#" class="text-white text-decoration-none ">Shop Now</a>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 position-relative  pe-1 pp-detail img-zoom">
+          <div class=" img-zoom overflow-hidden   ">
+            <img src="assets/img/image/soundphone.webp" alt="game" class="img-fluid">
+          </div>
+          <div class="detals position-absolute top-0 pt-4 ps-4 position-relative ">
+            <p>Professional Audio <br> <span class="p-detail ">Get the Best Deal</span> </p>
+            <a href="#" class=" text-decoration-none ">Shop Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- start BRANDS WE DISTRIBUTE -->
+  <section class="brands pt-5 mt-4 pb-5">
+    <div class="container">
+      <div class="top-hedear1 position-relative">
+        <h2 class="text-center ">BRANDS WE DISTRIBUTE</h2>
+      </div>
+
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo1.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo2.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo3.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo4.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo6.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo7.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo10.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo1.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo2.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo3.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo4.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo6.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo7.avif" alt="img" draggable="false" class="w-15">
+          <img src="assets/img/BRANDS WE DISTRIBUTE/logo10.avif" alt="img" draggable="false" class="w-15">
+        
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+
+
+    </div>
+  </section>
+
+  <!-- start SMART WATCH -->
+  <section class="smart-watch pt-3 position-relative ">
+    <img src="assets/img/smartwatch16_2000x.webp" alt="smartwatch16_2000x" /img>
+    <div class="watch-detail position-absolute text-white">
+      <h2>EXCLUSIVE <span> <br> SMART WATCH</span> </h2>
+      <p>BIGGER. BOLDER. BETTER</p>
+      <div class="button1 pt-4">
+        <a href="#" class="text-decoration-none text-white border bg-black pt-3 pb-3 ps-5 pe-5"> GET 20% OFF NOW</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- start services -->
+  <section class="services pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 d-flex mt-4 servic">
+          <img src="assets/img/services/truck_80x (1).svg" alt="truck_80x">
+          <p class="ps-3 pt-3 fw-bold">FREE DELIVERY <br> <span class="fw-normal">For all orders over $120</span> </p>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex mt-4 servic">
+          <img src="assets/img/services/support-1_80x.svg" alt="support-1_80x">
+          <p class="ps-3 pt-3 fw-bold">24/7 HELP CENTER <br> <span class="fw-normal">Dedicated 24/7 support</span> </p>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex mt-4 servic">
+          <img src="assets/img/services/refund_80x.svg" alt="refund_80x">
+          <p class="ps-3 pt-3 fw-bold">SATISFIED OR REFUNDED <br> <span class="fw-normal">Free returns within 14
+              days</span> </p>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex mt-4 servic">
+          <img src="assets/img/services/secure_80x.svg" alt="secure_80x" class="h-50 mt-3">
+          <p class="ps-3 pt-3 fw-bold"> 100% SECURE PAYMENTS <br> <span class="fw-normal">Accept all payment
+              methods</span> </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- start LATEST BLOGS -->
+  <section class="latese-blogs pt-5 mt-4 pb-5 mb-5">
+    <div class="container">
+      <div class="top-hedear position-relative">
+        <h2 class="text-center">LATEST BLOGS</h2>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4 blogs1">
+          <img src="assets/img/LATEST BLOGS/tv_560x.webp" alt="TV" class=" img-fluid ">
+          <a href="#" class="text-decoration-none text-black pt-3 d-inline-block fw-bold hh">Understanding the Latest TV
+            Technology</a>
+          <div class="d-flex pt-2 icon">
+            <i class="fa-solid fa-calendar pt-1"></i>
+            <p class="ps-1">January 09, 2023</p>
+            <i class="fa-regular fa-user pt-1 ps-4"></i>
+            <p class="ps-1"> by Ayman Abo Arra</p>
+          </div>
+          <div class="d-flex btt">
+            <a href="#" class="text-decoration-none  rounded-2 p-1 px-2"> Digital</a>
+            <a href="#" class=" ms-2 text-decoration-none  rounded-2 p-1 px-2"> TV </a>
+          </div>
+          <p class="pt-3 blog-p">Everything You Need to Know When Buying a New Television Though we can help you get the
+            most
+            out
+            of...</p>
+          <a href="#" class=" text-secondary-emphasis">Read more</a>
+
+        </div>
+
+        <div class="col-lg-4 blogs1">
+          <img src="assets/img/LATEST BLOGS/better_560x.webp" alt="Keep Gadget’s Battery Last Longer"
+            class=" img-fluid ">
+          <a href="#" class="text-decoration-none text-black pt-3 d-inline-block fw-bold hh">Keep Gadget’s Battery Last
+            Longer</a>
+          <div class="d-flex pt-2 icon">
+            <i class="fa-solid fa-calendar pt-1"></i>
+            <p class="ps-1">January 09, 2023</p>
+            <i class="fa-regular fa-user pt-1 ps-4"></i>
+            <p class="ps-1"> by Ayman Abo Arra</p>
+          </div>
+          <div class="d-flex btt">
+            <a href="#" class="text-decoration-none  rounded-2 p-1 px-2"> Battery</a>
+            <a href="#" class="text-decoration-none ms-2 rounded-2 p-1 px-2"> Digital</a>
+          </div>
+          <p class="pt-3 blog-p">Everything You Need to Know When Buying a New Television Though we can help you get the
+            most
+            out
+            of...</p>
+          <a href="#" class="text-secondary-emphasis">Read more</a </div>
+        </div>
+        <div class="col-lg-4 blogs1">
+          <img src="assets/img/LATEST BLOGS/phonr_560x.webp" alt="Best Android Phones For 2023" class=" img-fluid ">
+          <a href="#" class="text-decoration-none text-black pt-3 d-inline-block fw-bold hh">Best Android Phones For
+            2023</a>
+          <div class="d-flex pt-2 icon">
+            <i class="fa-solid fa-calendar pt-1"></i>
+            <p class="ps-1">January 09, 2023</p>
+            <i class="fa-regular fa-user pt-1 ps-4"></i>
+            <p class="ps-1"> by Ayman Abo Arra</p>
+          </div>
+          <div class="d-flex btt">
+            <a href="#" class="text-decoration-none  rounded-2 p-1 px-2"> Android</a>
+            <a href="#" class="text-decoration-none ms-2  rounded-2 p-1 px-2"> Digital</a>
+            <a href="#" class="text-decoration-none ms-2  rounded-2 p-1 px-2"> Phones</a>
+          </div>
+          <p class="pt-3 blog-p">Everything You Need to Know When Buying a New Television Though we can help you get the
+            most
+            out
+            of...</p>
+          <a href="#" class=" text-secondary-emphasis">Read more</a </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- start Deals and Offers -->
+  <section class="deals-offers py-5   ">
+    <div class="container">
+      <div class="contact-deals">
+
+        <h4>Online Deals and Offers</h4>
+        <p>At AdornThemes, we strive to bring our customers the best possible online deals and
+          offers on all the discounted items they need in their lives. That way, our wide selection can be your one-stop
+          shop for many essential items.
+          Whether you want apparel, jewelry, handbags, wallets, phones, tablets, computers, bedding, kitchen essentials,
+          personal care items, or anything else,
+          we have all your needs covered with our daily deals online shopping.</p>
+        <br>
+        <a href="#" class="text-decoration-none text-white border bg-black py-2 px-4  "> CONTACT US</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--start footer-->
+  <footer class="footer pb-5">
+    <div class="container">
+      <div class="row contant-footer text-white ">
+        <div class="col-lg-5">
+          <div class="vogal pt-5">
+            <img src="assets/img/logo-white_150x.avif" alt="">
+            <p class="pt-4">Our aim is to provide high quality, easy to use,<br>
+              fastest and affordable shopify themes.</p>
+
+
+            <a href="tel:Phone : (440) 000 000 0000" class="text-decoration-none text-white">Phone : (440)000
+              000 0000</a> <br>
+
+
+            <a href="mailto:Email : sales@yousite.com" class="text-decoration-none text-white  pt-1">Email :
+              sales@yousite.com</a> <br>
+
+
+            <div class="icon-footer  pt-4">
+              <i class="fa-brands fa-facebook "></i>
+              <i class="fa-brands fa-instagram ps-3"></i>
+              <i class="fa-brands fa-youtube ps-3"></i>
+              <i class="fa-brands fa-whatsapp ps-3"></i>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-lg-2  ">
+
+          <div class="information pt-5">
+            <h4 class="ps-4">INFORMATION</h4>
+            <ul class="list row gap-2 pt-3">
+              <li> Latest News </li>
+              <li> Career</li>
+              <li> My Account </li>
+              <li> My Cart</li>
+              <li> Orders and Returns </li>
+              <li>Contact Us</li>
+            </ul>
+
+
+          </div>
+        </div>
+        <div class="col-lg-2  ">
+
+          <div class="information pt-5">
+            <h4 class="ps-4 ">POPULAR COLLECTIONS</h4>
+            <ul class="list row gap-2  pt-3">
+              <li> Laptop & Computer </li>
+              <li> Audio Accessories</li>
+              <li> Smartphones </li>
+              <li> Video Games</li>
+              <li> Sound Bars </li>
+              <li>LED TVs</li>
+              <li>Weekly Special</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-lg-2 ">
+
+          <div class="information pt-5 ">
+            <h4 class="ps-4">CUSTOMER SERVICE</h4>
+            <ul class="list row gap-2  pt-3">
+              <li> Privacy Policy </li>
+              <li> Terms & Conditions</li>
+              <li> Shipping & Returns </li>
+              <li> Help & FAQs</li>
+              <li> Refund Policy </li>
+              <li>Customer Service</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <p class="mt-5 cursor">SUBSCRIBE TO OUR NEWSLETTER</p>
+          <p>Get notified about product launches, special offers and news.</p>
+
+          <form class="searchh d-flex">
+            <input type="email" name="contact[email]" class="newstxt w-75 p-2" value="" placeholder="  Email address">
+            <span class=" subscribe w-25  justify-content-center align-items-center d-flex " title="SUBSCRIBE">
+              SUBSCRIBE </span>
+          </form>
+
+
+
+        </div>
+        <div class="col-lg-4 ps-4">
+          <p class="mt-5 cursor">DOWNLOAD APP</p>
+          <p>Vogal App is now available on App Store & Google Play. Get it now.</p>
+          <img src="assets/img/apple_180x.avif" alt="apple">
+          <img src="assets/img/google-pay_180x.avif" alt="google play">
+        </div>
+        <div class="col-md-4 pt-5 ps-5 ss">
+          <img src="assets/img/payment_200x.avif" alt="payment">
+          <p class="pt-3">© 2023 Vogal. All Rights Reserved</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
